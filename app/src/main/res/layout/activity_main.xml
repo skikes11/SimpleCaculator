@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textViewOperand1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="48dp"
+        android:hint="Type Operand 1"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/textViewOperand2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewOperand1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="33dp"
+        android:hint="Type Operand 2"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewOperand2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="37dp"
+        android:hint="Result"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewResult"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"
+
+        android:layout_marginTop="50dp"
+        android:text="ADD"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewResult"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/btnAdd"
+        android:text="SUB"
+        android:textSize="25dp" />
+
+    <Button
+
+        android:id="@+id/btnDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAdd"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="8dp"
+        android:text="DIV"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnMul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSub"
+        android:layout_alignEnd="@+id/btnDiv"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="-111dp"
+        android:text="MUL"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/btnPow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLog"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="7dp"
+        android:text="POW"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewResult"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/btnSub"
+        android:text="LOG"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/btnFac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewResult"
+        android:layout_marginStart="-87dp"
+        android:layout_marginTop="-14dp"
+        android:layout_toEndOf="@+id/btnSub"
+        android:text="FAC"
+        android:textSize="25dp" />
+
+</RelativeLayout>

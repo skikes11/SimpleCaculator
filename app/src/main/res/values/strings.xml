@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SimpleCaculator</string>
+
+
+    <string name="OperandString1">
+     <u>underline</u>.
+    </string>
+
+    <string name="OperandString2">
+    <u>underline</u>.
+    </string>
+</resources>
